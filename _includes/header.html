@@ -1,6 +1,24 @@
 <header id="top" class="header">
+  <script src="https://cdn.jsdelivr.net/gh/hiphop5782/js@0.0.6/typing/hakademy-typing.js"></script>
+  <script>
+      window.addEventListener("load", function(){
+          var tag = document.querySelector(".typing");
+          var app = new Hakademy.util.typing(tag, {
+              text:[
+                  "타이핑 효과를 내는",
+                  "Typing Effect",
+                  "텍스트 여러개를 교체하여 사용할 수 있는",
+                  "www.sysout.co.kr에서 배포하는",
+                  "오픈소스로 개발된"
+              ],
+              color:{
+                  apply:true
+              }
+          });
+      });
+  </script>
   <div class="text-vertical-center">
-    <h1 class="typer-text">Start Bootstrap</h1>
+  <h1 class="typing">Start Bootstrap</h1>
     <h3>Free Bootstrap Themes &amp; Templates</h3>
     <br>
     <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
